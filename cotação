@@ -1,1 +1,30 @@
+Algoritmo Soma
 
+declaração
+        cotaçao1: inteiro;
+        cotaçao2: inteiro;
+        resultado: inteiro;
+       
+inicio 
+        ESCREVA("digite cotaçao do dolar");
+        LEIA("cotaçao do dolar");
+        ESCREVA("digite valor em dolares");
+        LEIA("valor em dolares");
+        resultado<-cotaçao1+cotaçao2;
+        
+        SE(resultado>10) ENTAO
+                  ESCREVA("resultado maior que 10");
+        SENAO
+                  SE(RESULTADO = 10) ENTAO
+                         ESCREVA("resultado igual");
+                  FIM-SE
+                  
+        FIM-SE 
+        
+        
+        
+        
+        ESCREVA("O resultado é:");
+        ESCREVA(resultado);
+        
+fim-algoritmo      
