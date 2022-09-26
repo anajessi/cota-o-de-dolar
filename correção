@@ -1,0 +1,26 @@
+Algoritmo Cotação
+
+declaraçao
+    cotaçao_dolar: decimal;
+    valor_dolar: decimal;
+    valor_convertido: decimal;
+    
+inicio
+    ESCREVA("digite a cotação do dolar");
+    LEIA(cotaçao_dolar);
+    SE(cotação_dolar<0.01) ENTAO
+        ESCREVA("valor invalido");
+SENAO
+    ESCREVA("digite o valor desejado para conversão");
+    ESCREVA("valor minimo para conversão $10,00");
+    LEIA(valor_dolar);
+    SE(valor_dolar<10) ENTAO
+        ESCREVA("valor inválido, conversão a partir de $10");
+    SENAO
+        valor_convertido <- valor_dolar*cotaçao_dolar;
+        ESCREVA("total em reais");
+        ESCREVA(valor_convertido);
+    FIM-SE
+FIM-SE
+fim-algoritmo cotação    
+    
